@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder", "WordFinder\WordFinder.csproj", "{FDF21AF0-F959-41CE-984F-C046AF9A773E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder.Test", "Test\WordFinder.UnitTest\WordFinder.Test.csproj", "{4D5A3EB0-50AF-4F99-BD54-FBDFFF049A50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder.Application", "WordFinder.Application\WordFinder.Application.csproj", "{577E9C99-EC4C-42B7-B0DC-801DF850B88F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder.Repository", "Repository\WordFinder.Repository\WordFinder.Repository.csproj", "{D3B00136-3139-4001-BB02-A2E2ACB8B9B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{3062DEA2-8C60-4D12-A4F7-917FDAFDBE68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder.WebserviceRepository", "Repository\WordFinder.WebserviceRepository\WordFinder.WebserviceRepository.csproj", "{480ED8B4-0BE4-4442-9786-80EBCF9353A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E5607322-452B-4D9C-8AEB-6753640285D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{D5D3E774-CD79-4C79-9A8B-A3E77F9B3A58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder.WebserviceRepository.Test", "Test\WordFinder.WebserviceRepository.Test\WordFinder.WebserviceRepository.Test.csproj", "{33FF0B34-ACDD-4C5A-A822-9C4112A2D3F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder.Application.Test", "Test\WordFinder.Application.Test\WordFinder.Application.Test.csproj", "{EEE5A685-CAA7-4E4C-AABC-A3139C847B6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AcceptanceTest", "AcceptanceTest", "{2255AC60-7C20-4159-BF1F-38E57652FB6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder.ApplicationSpec", "Test\AcceptanceTest\WordFinder.ApplicationSpec\WordFinder.ApplicationSpec.csproj", "{DCF5F3B6-7545-4548-AA4F-709D61854E42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDF21AF0-F959-41CE-984F-C046AF9A773E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF21AF0-F959-41CE-984F-C046AF9A773E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF21AF0-F959-41CE-984F-C046AF9A773E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF21AF0-F959-41CE-984F-C046AF9A773E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5A3EB0-50AF-4F99-BD54-FBDFFF049A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5A3EB0-50AF-4F99-BD54-FBDFFF049A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5A3EB0-50AF-4F99-BD54-FBDFFF049A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5A3EB0-50AF-4F99-BD54-FBDFFF049A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577E9C99-EC4C-42B7-B0DC-801DF850B88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577E9C99-EC4C-42B7-B0DC-801DF850B88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577E9C99-EC4C-42B7-B0DC-801DF850B88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577E9C99-EC4C-42B7-B0DC-801DF850B88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B00136-3139-4001-BB02-A2E2ACB8B9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B00136-3139-4001-BB02-A2E2ACB8B9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B00136-3139-4001-BB02-A2E2ACB8B9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B00136-3139-4001-BB02-A2E2ACB8B9B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{480ED8B4-0BE4-4442-9786-80EBCF9353A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480ED8B4-0BE4-4442-9786-80EBCF9353A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480ED8B4-0BE4-4442-9786-80EBCF9353A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480ED8B4-0BE4-4442-9786-80EBCF9353A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FF0B34-ACDD-4C5A-A822-9C4112A2D3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FF0B34-ACDD-4C5A-A822-9C4112A2D3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FF0B34-ACDD-4C5A-A822-9C4112A2D3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FF0B34-ACDD-4C5A-A822-9C4112A2D3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE5A685-CAA7-4E4C-AABC-A3139C847B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE5A685-CAA7-4E4C-AABC-A3139C847B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE5A685-CAA7-4E4C-AABC-A3139C847B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE5A685-CAA7-4E4C-AABC-A3139C847B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF5F3B6-7545-4548-AA4F-709D61854E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF5F3B6-7545-4548-AA4F-709D61854E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF5F3B6-7545-4548-AA4F-709D61854E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF5F3B6-7545-4548-AA4F-709D61854E42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D5A3EB0-50AF-4F99-BD54-FBDFFF049A50} = {E5607322-452B-4D9C-8AEB-6753640285D9}
+		{D3B00136-3139-4001-BB02-A2E2ACB8B9B1} = {3062DEA2-8C60-4D12-A4F7-917FDAFDBE68}
+		{480ED8B4-0BE4-4442-9786-80EBCF9353A7} = {3062DEA2-8C60-4D12-A4F7-917FDAFDBE68}
+		{D5D3E774-CD79-4C79-9A8B-A3E77F9B3A58} = {E5607322-452B-4D9C-8AEB-6753640285D9}
+		{33FF0B34-ACDD-4C5A-A822-9C4112A2D3F6} = {D5D3E774-CD79-4C79-9A8B-A3E77F9B3A58}
+		{EEE5A685-CAA7-4E4C-AABC-A3139C847B6E} = {E5607322-452B-4D9C-8AEB-6753640285D9}
+		{2255AC60-7C20-4159-BF1F-38E57652FB6E} = {E5607322-452B-4D9C-8AEB-6753640285D9}
+		{DCF5F3B6-7545-4548-AA4F-709D61854E42} = {2255AC60-7C20-4159-BF1F-38E57652FB6E}
+	EndGlobalSection
+EndGlobal
