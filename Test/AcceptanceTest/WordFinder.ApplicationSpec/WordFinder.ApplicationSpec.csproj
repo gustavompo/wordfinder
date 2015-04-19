@@ -41,7 +41,7 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="TechTalk.SpecFlow">
-      <HintPath>..\..\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll</HintPath>
+      <HintPath>..\..\..\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Choose>
@@ -70,11 +70,11 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="packages.config" />
     <None Include="FindWord.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>FindWord.feature.cs</LastGenOutput>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\WordFinder.Application\WordFinder.Application.csproj">
